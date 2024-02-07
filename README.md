@@ -18,7 +18,7 @@ This is a simple implementation of the classic Tic Tac Toe game using HTML, CSS,
 
 ## Demo
 
-You can play the game live [here]([#](https://tic-tac-toe-parikshit.netlify.app)), or alternatively, you can clone this repository and open the `index.html` file in your browser.
+You can play the game live [here](https://tic-tac-toe-parikshit.netlify.app), or alternatively, you can clone this repository and open the `index.html` file in your browser.
 
 ## Installation
 
