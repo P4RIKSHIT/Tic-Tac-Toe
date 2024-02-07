@@ -1,0 +1,132 @@
+@font-face {
+    font-family: bits;
+    src: url(assets/04B_30__.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: bits;
+  }
+  
+  body {
+    overflow: hidden;
+    min-height: 100vh;
+    background-image: url(assets/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center bottom; /* Position the bottom part of the background image at the bottom of the screen */
+  }
+  
+  .container {
+    min-height: 70vh;
+    display: flex;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  main h1{
+    font-size: 5vh;
+    padding-top: 30px;
+    color: white;
+    -webkit-text-stroke-width: .5px;
+    text-shadow: rgba(0, 0, 0, 0.777) 1px 0 10px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    padding: 0.25em 0.5em;
+    border: 3px solid;
+    box-shadow: .5px .5px 0px 0px, .5px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    font-size: 8vmin;
+    color: #000000;
+    border-color: black;
+    background-color: #ffffc7;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+    
+  }
+  .box:hover{
+    cursor: pointer;
+    background-color: #f2f27c;
+    transform: scale(1.05);
+    
+
+    
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+  }
+  #reset-btn:hover {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #111111;
+    transform: scale(1.1);
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+  }
+  #new-btn:hover {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #111111;
+    transform: scale(1.1);
+  }
+  
+  #msg {
+    color: #ffffff;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
